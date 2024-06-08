@@ -1,4 +1,3 @@
-[16:18] Guilherme Neves
 <div align="center">
 
 <p align="center">
