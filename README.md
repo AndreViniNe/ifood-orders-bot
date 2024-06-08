@@ -9,7 +9,7 @@
 
 </p>
  
-<h3 align="center">SmartMix Analytics Project</h3>
+<h3 align="center">Ifood Orders Bot</h3>
 
 </div>
  
@@ -17,7 +17,7 @@
  
   [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+  [![GitHub Issues](https://img.shields.io/github/issues/AndreViniNe/ifood-orders-bot.svg)](https://github.com/AndreViniNe/ifood-orders-bot/issues)
 
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AndreViniNe/ifood-orders-bot.svg)](https://github.com/AndreViniNe/ifood-orders-bot/pulls)
 
