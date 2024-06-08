@@ -1,0 +1,2 @@
+order_id,customer_name,delivery_address,pizza_type,pizza_size,pizza_crust,total_price
+001,Alice Smith,"123 Main St, Anytown",Pepperoni,Medium,Thin,12.99

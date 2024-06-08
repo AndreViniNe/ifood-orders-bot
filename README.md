@@ -64,7 +64,9 @@ This repository is a monorepo that contains all SmartMix Analytics implementatio
  
 ## 🧐 About <a name = "about"></a>
 
-Escreva aqui o proposito deste modulo em alguns poucos paragrafos, o que ele entrega em qual contexto, quais as principais funcionalidades, ou outros itens relevantes.
+In this project, RAG JSON index phi3 LLM
+
+![About](/docs/images/llamaindex.webp)
  
 ## 🎥 Demo / Working
 
