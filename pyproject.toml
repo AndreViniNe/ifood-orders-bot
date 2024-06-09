@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ifood-orders-bot"
+version = "0.1.0"
+description = "SLM RAG Llama Index"
+authors = ["Andre Vinicius <andrevini.neves@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "=3.11.4"
+llama-index-llms-ollama = "^0.1.5"
+llama-index = "^0.10.43"
+transformers = "^4.41.2"
+llama-cpp-python = "^0.2.77"
+accelerate = "^0.31.0"
+llama-index-embeddings-huggingface = "^0.2.1"
+llama-index-embeddings-instructor = "^0.1.3"
+llama-index-readers-file = "^0.1.23"
+ipython = "^8.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

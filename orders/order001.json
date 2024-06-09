@@ -1,0 +1,11 @@
+{
+    "order_id": "001",
+    "customer_name": "Alice Smith",
+    "delivery_address": "123 Main St, Anytown",
+    "pizza": {
+        "type": "Pepperoni",
+        "size": "Medium",
+        "crust": "Thin"
+    },
+    "total_price": 12.99
+}

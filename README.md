@@ -29,16 +29,7 @@
 <p align="center">
  
 This repository is a monorepo that contains all SmartMix Analytics implementation from data preparation for Machine Learning Models, Training of the models and coal selection optimization in order to reduce raw material cost. The repository structre comprises three main folders:
- 
-1. [**machine_learning:**](./machine_learning/README.md) Housing the machine learning model designed for predicting coal coke. This model is tailored to assess coal selection factors.
- 
-2. [**ml_model_features:**](./ml_model_features/README.md) Containing PySpark code dedicated to data preparation for the machine learning model. It focuses on extracting relevant features for model training.
- 
-3. [**optimization:**](./optimization/README.md) Encompassing a linear programming algorithm implemented using PuLP. The primary goal here is to optimize the cost associated with coal selection, ensuring the selection of the most cost-effective coal for coke production.
-
-.
-
-    <br> 
+  
 
 </p>
  
@@ -64,7 +55,9 @@ This repository is a monorepo that contains all SmartMix Analytics implementatio
  
 ## 🧐 About <a name = "about"></a>
 
-Escreva aqui o proposito deste modulo em alguns poucos paragrafos, o que ele entrega em qual contexto, quais as principais funcionalidades, ou outros itens relevantes.
+In this project, RAG JSON index phi3 LLM
+
+![About](/docs/images/llamaindex.webp)
  
 ## 🎥 Demo / Working
 
@@ -106,10 +99,8 @@ Passo-passo para rodar local subtopico de getting started.
  
 ## ✍️ Authors <a name = "authors"></a>
 
-+ [@pedrinho](email@abcd.com.br) - Arquitetura
++ [@André Vinícius](andrevini.neves@gmail.com) - Project Development
 
-+ [@zezinho](email@abcd.com.br) - Autenticação
- 
  
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
  
