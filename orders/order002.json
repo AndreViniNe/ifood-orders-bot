@@ -1,0 +1,11 @@
+{
+    "order_id": "002",
+    "customer_name": "Andre Neves",
+    "delivery_address": "Rua ABC, Predio Novo",
+    "pizza": {
+        "type": "Pepperoni",
+        "size": "Medium",
+        "crust": "Thick"
+    },
+    "total_price": 14.99
+}
