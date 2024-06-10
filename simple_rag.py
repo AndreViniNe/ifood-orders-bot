@@ -33,7 +33,7 @@ base_query_engine = base_index.as_query_engine(
         ],
     )
 
-query_orders = "What is the output of this formula: 20+34"
+query_orders = "What are the names of the people that made the orders?"
 response_orders = base_query_engine.query(query_orders)
 
 print(response_orders)
