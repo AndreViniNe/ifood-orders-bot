@@ -28,7 +28,7 @@
  
 <p align="center">
  
-This repository is a monorepo that contains all SmartMix Analytics implementation from data preparation for Machine Learning Models, Training of the models and coal selection optimization in order to reduce raw material cost. The repository structre comprises three main folders:
+This repository contains all Ifood Orders Bot implementation utilizing phi3 SLM (Small Language Model) from Microsoft with LlamaIndex data framework to vectorize the selected documents.
   
 
 </p>
@@ -55,13 +55,16 @@ This repository is a monorepo that contains all SmartMix Analytics implementatio
  
 ## 🧐 About <a name = "about"></a>
 
-In this project, RAG JSON index phi3 LLM
+In this project, we utilize the RAG method to get a better response from the model based on a single/list of documents (in our case, JSON documents). The JSON documents are indexed together with the user query. Then these indexes are passed to the phi3 SLM (Small Language Model), giving the user a response based on the context of all this. We can see all this process in the image below:
 
 ![About](/docs/images/llamaindex.webp)
  
 ## 🎥 Demo / Working
 
-Inclua aqui alguma demonstração do modulo funcionando, pode ser um gif, uma foto, um vídeo, partes importantes do modulo. Pode ser também a execução em linha de comando, caso o sistema não tenha uma UI.
+Here, we can see the input and the output of the react agent RAG.
+
+![](/docs/images/re_agent_code1.png)
+![](/docs/images/re_agent_code2.png)
  
 ## 💭 How it works
  
@@ -78,13 +81,9 @@ Nessa etapa, deve ser mostrado como montar o ambiente local para desenvolvimento
  
 ### Prerequisites
  
-Prerequisitos para instalacao local subtopico mencionado acima
- 
-```
-
-Python 3.11 etc...
-
-```
+All the installation prerequisites are in the file **pyproject.toml**. The only thing needed is a command in Terminal to install all the dependencies:  
+  
+*poetry install --no--root*
  
 ### Installing
  
@@ -93,9 +92,11 @@ Passo-passo para rodar local subtopico de getting started.
  
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-+ [Tecnologia1](https://praw.readthedocs.io/en/latest/) - Python Reddit API Wrapper
++ [Llama Index](https://docs.llamaindex.ai/en/stable/) - Python Data Framework for LLM or SLM applications
 
-+ [FrameworkA](https://www.heroku.com/) - SaaS hosting platform
++ [Poetry](https://python-poetry.org/docs/) - Python packaging and dependency management made easy
+
++ [PyEnv](https://github.com/pyenv/pyenv) - Simple Python Version Management
  
 ## ✍️ Authors <a name = "authors"></a>
 
