@@ -4,7 +4,7 @@
 
   <a href="" rel="noopener">
 
-<img width=300px height=150px src="https://www.neobyte.com.br/wp-content/uploads/2020/10/analytics.png" alt="Bot logo"></a>
+<img width=300px height=256px src="docs/images/food_bot.jpeg" alt="Bot logo"></a>
 
 </p>
  
@@ -51,13 +51,13 @@ This repository contains all Ifood Orders Bot implementation utilizing phi3 SLM 
 
 + [Acknowledgments](#acknowledgement)
  
-## 🧐 About <a class = "about"></a>
+## 🧐 About <a name = "about"></a>
 
 In this project, we utilize the RAG method to get a better response from the model based on a single/list of documents (in our case, JSON documents). The JSON documents are indexed together with the user query. Then these indexes are passed to the phi3 SLM (Small Language Model) from the Ollama framework, giving the user a response based on the context of all this. We can see all this process in the image below:
 
 ![About](/docs/images/llamaindex.webp)
  
-## 🎥 Demo / Working <a class = "demo"></a>
+## 🎥 Demo / Working <a name = "demo"></a>
 
 Here, we can see the input and the output of the react agent RAG.
 
@@ -68,7 +68,7 @@ And here we can see the input and output of the simple RAG
 
 ![](/docs/images/simple_rag_code.png)
  
-## 💭 How it works <a class = "working"></a>
+## 💭 How it works <a name = "working"></a>
  
 The project is divided in parts:  
 **Documents**: As the name says, they are specific documents that will be passed either directly to the model or via Nodes, that is, chunks of the document with specific characteristics that differentiate them (nodes are utilized in a normal RAG, not in the react agent). These documents can be of different types (.json, .pdf, .csv, etc.)  
