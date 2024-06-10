@@ -63,11 +63,8 @@ def query_response():
     """Ask the user to make a question to the Agent and returns the answer of the Agent to the question"""
     prompt = str(input("Ask the model a question: "))
     agent = slm_agent()
-    response = agent.chat(prompt)
-    return response
+    agent.chat(prompt)
 
-def main():
-    response = query_response()
 
 if __name__ == "__main__":
-    main()
+    query_response()
